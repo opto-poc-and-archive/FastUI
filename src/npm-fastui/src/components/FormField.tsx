@@ -39,6 +39,7 @@ export const FormFieldInputComp: FC<FormFieldInputProps> = (props) => {
         disabled={locked}
         placeholder={placeholder}
         autoComplete={autocomplete}
+        step={step}
         aria-describedby={descId(props)}
         onChange={onChange}
         step={step}
