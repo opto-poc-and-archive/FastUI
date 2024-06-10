@@ -42,6 +42,7 @@ export const FormFieldInputComp: FC<FormFieldInputProps> = (props) => {
         step={step}
         aria-describedby={descId(props)}
         onChange={onChange}
+        step={step}
       />
       <ErrorDescription {...props} />
     </div>
